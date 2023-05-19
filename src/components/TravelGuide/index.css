@@ -1,0 +1,55 @@
+.app-bg {
+  background-color: #eef4f7;
+  min-height: 100vh;
+  overflow-y: auto;
+  font-family: roboto;
+  padding: 10px;
+}
+
+.app-heading {
+  font-size: 35px;
+  font-weight: 600;
+  color: #334155;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #52bbf0;
+}
+
+.travel-cards-ul {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.travel-card {
+  background-color: #ffffff;
+  list-style-type: none;
+
+  height: 500px;
+  width: 550px;
+  margin: 15px;
+}
+
+.travel-img {
+  width: 549px;
+  height: 300px;
+}
+
+.travel-heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #475569;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.travel-des {
+  font-size: 18px;
+  font-weight: 500;
+  color: #64748b;
+  padding-left: 15px;
+  padding-right: 15px;
+}
